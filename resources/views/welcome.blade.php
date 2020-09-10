@@ -48,7 +48,5 @@
 
     @include('components/wysok')
 
-
-
     </body>
 </html>
