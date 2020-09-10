@@ -1,7 +1,7 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <img src="img/logo.png" width="30" height="30" alt="" loading="lazy">
+        <img src="img/logo.png" width="30" height="30" alt="">
         <a class="navbar-brand" href="/">IT-Sklep</a>
         <button
             class="navbar-toggler"
@@ -64,13 +64,15 @@
                                 <div class="form-group text-center">
                                     <small><a href="#" data-toggle="modal" data-target="#modalPassword">Zapomniałeś hasła?</a></small>
                                 </div>
-                                <div class="form-group text-center">
-                                    <small>lub</small>
-                                </div>
+
+                <!-- Rejestracja -->
+                <div class="form-group text-center">
+                    <small>lub</small>
+                </div>
 
                             </form>
                             <div class="form-group text-center">
-                                <a href="/rejestracja" class="btn btn-danger justify-content-center">Zarejestruj się</a>
+                                <a href="/rejestracja" class="btn btn-danger justify-content-center">Utwórz konto</a>
 
                             </div>
                         </li>

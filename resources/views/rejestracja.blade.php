@@ -32,12 +32,48 @@
     </style>
 </head>
 <body>
+
 @include('components/navbar')
 
 <div class="container py-5">
-    <h1>Rejestracja</h1>
+    <h1>Utwórz konto</h1>
 </div>
 
+<div class="container">
+
+    <form>
+        <div class="form-group">
+            <label for="exampleInputName">Imię</label>
+            <input type="text" class="form-control" placeholder="Imię">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputSurname">Nazwisko</label>
+            <input type="text" class="form-control" placeholder="Nazwisko">
+        </div>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Wprowadź Email">
+            </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword1">Hasło</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Hasło">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputPassword2">Powtórz hasło</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Powtórz Hasło">
+        </div>
+
+        <button type="submit" class="btn btn-warning">Utwórz konto</button>
+
+    </form>
+
+</div>
+
+@include('components/footer')
 </body>
+
 </html>
 

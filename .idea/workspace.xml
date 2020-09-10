@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676c588d-8f11-4330-90e7-3ba8ab40f91b" name="Default Changelist" comment="" />
+    <list default="true" id="676c588d-8f11-4330-90e7-3ba8ab40f91b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kontakt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kontakt.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/rejestracja.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/rejestracja.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +17,9 @@
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -117,12 +127,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hHW6WHossVkm3h7sxWFd7E1DQf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -154,18 +167,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599668322794</updated>
-      <workItem from="1599668323838" duration="28836000" />
+      <workItem from="1599668323838" duration="31685000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599743470083">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1599743470083" />
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599669530580">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1599669530580" />
+    <state x="647" y="345" key="Github.ShareDialog" timestamp="1599743228030">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="647" y="345" key="Github.ShareDialog/0.30.1536.834@0.30.1536.834" timestamp="1599743228030" />
+    <state x="538" y="152" key="Github.UntrackedFilesDialog" timestamp="1599743248211">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="538" y="152" key="Github.UntrackedFilesDialog/0.30.1536.834@0.30.1536.834" timestamp="1599743248211" />
     <state x="431" y="186" key="search.everywhere.popup" timestamp="1599737856509">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
