@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -34,16 +33,16 @@
 </head>
 <body>
 
-@include('components/navbar')
 
+@include('components/navbar')
 @include('components/bread')
 
-<div class="container py-5">
-
-    <h1><i class="fas fa-shopping-cart ml-1"></i>Twój Koszyk</h1>
+<div class="container">
+    <p><h1>Profil</h1></p>
 </div>
-
 
 
 </body>
 </html>
+
+

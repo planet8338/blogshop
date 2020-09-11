@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="676c588d-8f11-4330-90e7-3ba8ab40f91b" name="Default Changelist" comment="Adding: shop layout">
-      <change afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_11_112653_create_products_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/produkt.blade.php" afterDir="false" />
+    <list default="true" id="676c588d-8f11-4330-90e7-3ba8ab40f91b" name="Default Changelist" comment="Layout upgrading">
+      <change afterPath="$PROJECT_DIR$/resources/views/profil.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/bread.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/bread.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/karty.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/karty.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/numeracjastron.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/numeracjastron.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/produkty_sklep.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/produkty_sklep.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/shop_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/shop_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/kontakt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kontakt.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/koszyk.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/koszyk.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/produkt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produkt.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599668322794</updated>
-      <workItem from="1599668323838" duration="46791000" />
+      <workItem from="1599668323838" duration="49642000" />
     </task>
     <task id="LOCAL-00001" summary="Adding layouts">
       <created>1599745647698</created>
@@ -202,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599812200845</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Layout upgrading">
+      <created>1599825873986</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599825873986</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +212,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Adding layouts" />
     <MESSAGE value="Adding: shop layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding: shop layout" />
+    <MESSAGE value="Layout upgrading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Layout upgrading" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599743470083">
@@ -231,10 +232,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="538" y="152" key="Github.UntrackedFilesDialog/0.30.1536.834@0.30.1536.834" timestamp="1599743248211" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1599812202735">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1599825875526">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1599812202735" />
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1599825875526" />
     <state x="431" y="186" key="search.everywhere.popup" timestamp="1599737856509">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

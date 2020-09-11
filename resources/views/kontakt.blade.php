@@ -35,7 +35,7 @@
 @include('components/navbar')
 
 <div class="container py-5">
-<h1>Kontakt</h1>
+<h1><i class="fas fa-id-card"></i>Kontakt</h1>
 </div>
 
 

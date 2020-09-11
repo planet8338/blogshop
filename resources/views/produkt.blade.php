@@ -116,7 +116,7 @@
         <div class="row wow fadeIn">
 
             <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4">
+            <div class="col-lg-4 col-md-12 mb-4 d-flex justify-content-center">
 
                 <div class="card" style="width: 18rem;">
                     <img src="img/karta_samsung.jpg" class="card-img-top" alt="...">
@@ -132,7 +132,7 @@
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-12 mb-4 d-flex justify-content-center">
 
                 <div class="card" style="width: 18rem;">
                     <img src="img/karta_samsung.jpg" class="card-img-top" alt="...">
@@ -148,7 +148,7 @@
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-4 col-md-6 mb-4">
+            <div class="col-lg-4 col-md-12 mb-4 d-flex justify-content-center">
 
                 <div class="card" style="width: 18rem;">
                     <img src="img/karta_samsung.jpg" class="card-img-top" alt="...">
@@ -169,7 +169,7 @@
     </div>
 </main>
 <!--Main layout-->
-
+@include('components/footer')
 <!-- SCRIPTS -->
 <!-- JQuery -->
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>

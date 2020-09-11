@@ -44,3 +44,7 @@ Route::get('/koszyk', function (){
 Route::get('/produkt', function(){
    return view('produkt');
 });
+
+Route::get('/profil', function (){
+   return view('profil');
+});
