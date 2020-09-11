@@ -40,3 +40,7 @@ Route::get('/rejestracja', function (){
 Route::get('/koszyk', function (){
    return view('koszyk');
 });
+
+Route::get('/produkt', function(){
+   return view('produkt');
+});

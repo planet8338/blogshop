@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
         <img src="img/logo.png" width="30" height="30" alt="">
         <a class="navbar-brand" href="/">IT-Sklep</a>

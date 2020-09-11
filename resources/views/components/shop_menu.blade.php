@@ -6,8 +6,9 @@
 
             <h1 class="my-4">Sklep</h1>
             <ul class="list-group">
+
                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                    <a href="#">Komputery </a>
+                    <a href="#">Komputery</a>
                     <span class="badge badge-primary badge-pill">77</span>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -38,6 +39,8 @@
 
         </div>
         <!-- /.col-lg-3 -->
+
+        <!-- Produkty -->
         @include('components/produkty_sklep')
     </div>
 </div>
