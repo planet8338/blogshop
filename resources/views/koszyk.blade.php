@@ -64,7 +64,7 @@
                     <td>1 szt</td>
                     <td>2800zł</td>
                     <td>
-                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="produktUsun">Usuń</button>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#produktUsun">Usuń</button>
                         <button type="button" class="btn btn-warning">Szczegóły</button>
                     </td>
                 </tr>
@@ -95,7 +95,9 @@
                     <td> </td>
                     <td> <h2>8400zł</h2> </td>
                     <td>
+                        <a href="/podsumowanie">
                         <button type="button" class="btn btn-success btn-lg btn-block">Zapłać</button>
+                        </a>
                     </td>
                 </tr>
 

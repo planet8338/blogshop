@@ -10,11 +10,11 @@
                 </button>
             </div>
             <div class="modal-body">
-                Czy na pewno usunąć produkt?
+                Nie ma nowości
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Tak</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Nie</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Zamknij</button>
+
             </div>
         </div>
     </div>

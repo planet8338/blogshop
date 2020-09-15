@@ -115,14 +115,15 @@
         <!--Grid row-->
         <div class="row wow fadeIn">
 
+            @foreach($products as $product)
             <!--Grid column-->
             <div class="col-lg-4 col-md-12 mb-4 d-flex justify-content-center">
 
                 <div class="card" style="width: 18rem;">
                     <img src="img/karta_samsung.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Samsung Note</h5>
-                        <p class="card-text">System operacyjny: <b>Android 5.1</b><br>Wyświetlacz (przekątna) <b>5,7 cale/cali.</b><br>Pamięć masowa <b>32 GB.</b></p>
+                        <h5 class="card-title">{{$product -> name}}</h5>
+                        <p class="card-text">{{$product -> details}}</p>
                         <a href="#" class="btn btn-warning justify-content-center">Do koszyka
                             <i class="fas fa-shopping-cart ml-1"></i></a>
                     </div>
@@ -130,38 +131,8 @@
 
             </div>
             <!--Grid column-->
+            @endforeach
 
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4 d-flex justify-content-center">
-
-                <div class="card" style="width: 18rem;">
-                    <img src="img/karta_samsung.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Samsung Note</h5>
-                        <p class="card-text">System operacyjny: <b>Android 5.1</b><br>Wyświetlacz (przekątna) <b>5,7 cale/cali.</b><br>Pamięć masowa <b>32 GB.</b></p>
-                        <a href="#" class="btn btn-warning justify-content-center">Do koszyka
-                            <i class="fas fa-shopping-cart ml-1"></i></a>
-                    </div>
-                </div>
-
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-4 col-md-12 mb-4 d-flex justify-content-center">
-
-                <div class="card" style="width: 18rem;">
-                    <img src="img/karta_samsung.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Samsung Note</h5>
-                        <p class="card-text">System operacyjny: <b>Android 5.1</b><br>Wyświetlacz (przekątna) <b>5,7 cale/cali.</b><br>Pamięć masowa <b>32 GB.</b></p>
-                        <a href="#" class="btn btn-warning justify-content-center">Do koszyka
-                            <i class="fas fa-shopping-cart ml-1"></i></a>
-                    </div>
-                </div>
-
-            </div>
-            <!--Grid column-->
 
         </div>
         <!--Grid row-->

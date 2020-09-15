@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Product;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
-class ProductController extends Controller
+class RegisterController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +15,12 @@ class ProductController extends Controller
      */
     public function index()
     {
-        $products = Product::inRandomOrder()->take(6)->get();
-        //dd($products);
-        return response()->view('welcome', ['products' => $products]);
+        //
+    }
+
+    protected function guard()
+    {
+        return Auth::guard('guard-name');
     }
 
     /**
@@ -26,24 +30,39 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+
     }
 
     /**
      * Store a newly created resource in storage.
      *
-     * @param \Illuminate\Http\Request $request
+     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
-        //
+        $this->validate(request(), [
+            'name' => 'required',
+            'email' => 'required|email',
+            'password' => 'required',
+            'number' => 'required',
+            'street' => 'required',
+            'city' => 'required',
+            'postcode' => 'required',
+
+        ]);
+
+        $user = User::create(request(['name', 'email', 'password']));
+
+        auth()->login($user);
+
+
     }
 
     /**
      * Display the specified resource.
      *
-     * @param int $id
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function show($id)
@@ -54,7 +73,7 @@ class ProductController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param int $id
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
@@ -65,8 +84,8 @@ class ProductController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param \Illuminate\Http\Request $request
-     * @param int $id
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
@@ -77,7 +96,7 @@ class ProductController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param int $id
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

@@ -3,7 +3,7 @@
 <!-- Karty -->
     <div class="album bg-light col-sm-12 py-5">
         <div class="container">
-            <div class="row row-cols-lg-6 d-flex justify-content-center wow fadeIn">
+            <div class="row row-cols-lg-8 d-flex justify-content-center wow fadeIn">
 
             @foreach($products as $product)
                 <div class="card" style="width: 18rem;">
@@ -12,12 +12,16 @@
                     <div class="card-body">
                         <h5 class="card-title">{{$product -> name}}</h5>
                         <p class="card-text">{{$product -> details}}</p>
-                        <h3><b>{{$product -> price}}</b> zł</h3>
+                    </div>
 
+                    <div class="card-footer bg-transparent">
+                        <div style="text-align: center;">
+                        <h3><b>{{$product -> price}}</b> zł</h3>
                         <a href="#" class="btn btn-warning justify-content-center">Do koszyka
-                            <i class="fas fa-shopping-cart ml-1"></i></a>
+                            <i class="fas fa-shopping-cart ml-1"></i></a></div>
                     </div>
                 </div>
+
 
                 @endforeach
 

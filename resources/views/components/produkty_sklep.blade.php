@@ -16,12 +16,14 @@
                         </div>
                         <div class="card-footer">
                             <div class="row justify-content-center">
-                                <div class="col">
+                                    <div style="text-align: center;">
                                     <h5>{{$product -> price}} zł</h5>
-                                </div>
+
                                 <a href="#" class="btn btn-warning">Do koszyka
                                     <i class="fas fa-shopping-cart ml-1"></i></a>
-                            </div>
+                                    </div>
+                                </div>
+
 
                         </div>
                     </div>

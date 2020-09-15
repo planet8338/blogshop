@@ -29,12 +29,13 @@
             </ul>
 
             <!-- Koszyk -->
-            <ul class="nav navbar-nav flex-row justify-content-between ml-auto col-md-4">
+            <ul class="nav navbar-nav flex-row justify-content-end ml-auto">
                 <li class="nav-item dropdown order-2 order-md-2">
                     <a href="/koszyk" class="nav-link" title="Shopping">
                         <i class="fas fa-shopping-bag" style="font-size:20px;"></i>
                     </a>
                 </li>
+
 
                 <!-- Search -->
                 <form class="d-flex input-group w-auto">
@@ -79,6 +80,7 @@
                     </ul>
                 </li>
             </ul>
+
         </div>
     </div>
 </nav>

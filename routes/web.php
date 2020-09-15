@@ -18,7 +18,11 @@ Route::get('/', 'ProductController@index')->name('index');
 
 Route::get('/sklep', 'ShopController@index')->name('index');
 
+Route::get('/produkt', 'OneProductController@index')->name('index');
 
+Route::get('/rejestracja', 'RegisterController@create');
+
+Route::post('rejestracja', 'RegisterController@store');
 
 Route::get('/kontakt', function(){
    return view('kontakt');
@@ -40,10 +44,10 @@ Route::get('/koszyk', function (){
    return view('koszyk');
 });
 
-Route::get('/produkt', function(){
-   return view('produkt');
-});
-
 Route::get('/profil', function (){
    return view('profil');
+});
+
+Route::get('/podsumowanie', function (){
+    return view('thanks');
 });
