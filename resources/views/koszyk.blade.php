@@ -38,11 +38,77 @@
 
 @include('components/bread')
 
-<div class="container py-5">
 
-    <h1><i class="fas fa-shopping-cart ml-1"></i>Twój Koszyk</h1>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-12">
+
+            <h1 class="my-4">Twój koszyk</h1>
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nazwa</th>
+                    <th scope="col">Ilość</th>
+                    <th scope="col">Cena</th>
+                    <th scope="col">Akcje</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Samsung Note</td>
+                    <td>1 szt</td>
+                    <td>2800zł</td>
+                    <td>
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="produktUsun">Usuń</button>
+                        <button type="button" class="btn btn-warning">Szczegóły</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Samsung Note</td>
+                    <td>1 szt</td>
+                    <td>2800zł</td>
+                    <td>
+                        <button type="button" class="btn btn-danger">Usuń</button>
+                        <button type="button" class="btn btn-warning">Szczegóły</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Samsung Note</td>
+                    <td>1 szt</td>
+                    <td>2800zł</td>
+                    <td>
+                        <button type="button" class="btn btn-danger">Usuń</button>
+                        <button type="button" class="btn btn-warning">Szczegóły</button>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row"><h3>Do zapłaty:</h3> </th>
+                    <td> </td>
+                    <td> </td>
+                    <td> <h2>8400zł</h2> </td>
+                    <td>
+                        <button type="button" class="btn btn-success btn-lg btn-block">Zapłać</button>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+            <hr>
+
+        </div>
+        <p><b>Kod Rabatowy:</b> <input type="text" name="Rabat"></p>
+    </div>
 </div>
 
+@include('components/wysokusun')
 
 
 </body>

@@ -41,6 +41,6 @@
         <!-- /.col-lg-3 -->
 
         <!-- Produkty -->
-        @include('components/produkty_sklep')
+        @include('components/produkty_sklep', ['products'=>$products])
     </div>
 </div>

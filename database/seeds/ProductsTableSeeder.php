@@ -36,7 +36,56 @@ class ProductsTableSeeder extends Seeder
             'slug' => 'xiaomi-redmi-note',
             'details' => 'Wyświetlacz: 6,67 ", 2400 x 1080 pikseli, Full HD+. Procesor: 8-rdzeniowy Qualcomm Snapdragon 720G. System operacyjny: Android 10. Pamięć RAM: 6 GB. Pamięć wbudowana: 64 GB',
             'price' => '2300',
-            'description' => '',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent volutpat leo magna, ac dictum odio accumsan sed.',
+        ]);
+
+        Product::create([
+
+            'name' => 'Nokia Lumia',
+            'slug' => 'nokia-lumia',
+            'details' => 'Wyświetlacz: 6,67 ", 2400 x 1080 pikseli, Full HD+. Procesor: 8-rdzeniowy Qualcomm Snapdragon 720G. System operacyjny: Android 10. Pamięć RAM: 6 GB. Pamięć wbudowana: 64 GB',
+            'price' => '2300',
+            'description' => 'Nokia łączy ludzi.',
+        ]);
+        Product::create([
+
+            'name' => 'Nokia Lumia 1',
+            'slug' => 'nokia-lumia1',
+            'details' => 'Wyświetlacz: 6,67 ", 2400 x 1080 pikseli, Full HD+. Procesor: 8-rdzeniowy Qualcomm Snapdragon 720G. System operacyjny: Android 10. Pamięć RAM: 6 GB. Pamięć wbudowana: 64 GB',
+            'price' => '2300',
+            'description' => 'Nokia łączy ludzi.',
+        ]);
+        Product::create([
+
+            'name' => 'Nokia Lumia 2',
+            'slug' => 'nokia-lumia2',
+            'details' => 'Wyświetlacz: 6,67 ", 2400 x 1080 pikseli, Full HD+. Procesor: 8-rdzeniowy Qualcomm Snapdragon 720G. System operacyjny: Android 10. Pamięć RAM: 6 GB. Pamięć wbudowana: 64 GB',
+            'price' => '2300',
+            'description' => 'Nokia łączy ludzi.',
+        ]);
+        Product::create([
+
+            'name' => 'Nokia Lumia 3',
+            'slug' => 'nokia-lumia3',
+            'details' => 'Wyświetlacz: 6,67 ", 2400 x 1080 pikseli, Full HD+. Procesor: 8-rdzeniowy Qualcomm Snapdragon 720G. System operacyjny: Android 10. Pamięć RAM: 6 GB. Pamięć wbudowana: 64 GB',
+            'price' => '2300',
+            'description' => 'Nokia łączy ludzi.',
+        ]);
+        Product::create([
+
+            'name' => 'Xiaomi Mi 8',
+            'slug' => 'xiaomi-mi8',
+            'details' => 'Wyświetlacz: 6,67 ", 2400 x 1080 pikseli, Full HD+. Procesor: 8-rdzeniowy Qualcomm Snapdragon 720G. System operacyjny: Android 10. Pamięć RAM: 6 GB. Pamięć wbudowana: 64 GB',
+            'price' => '2300',
+            'description' => 'Xiaomi lepsze.',
+        ]);
+        Product::create([
+
+            'name' => 'Huawei bl',
+            'slug' => 'huawei-lumia',
+            'details' => 'Wyświetlacz: 6,67 ", 2400 x 1080 pikseli, Full HD+. Procesor: 8-rdzeniowy Qualcomm Snapdragon 720G. System operacyjny: Android 10. Pamięć RAM: 6 GB. Pamięć wbudowana: 64 GB',
+            'price' => '2300',
+            'description' => 'Huawei szpieguje ludzi.',
         ]);
     }
 }

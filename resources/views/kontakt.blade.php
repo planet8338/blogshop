@@ -38,6 +38,76 @@
 <h1><i class="fas fa-id-card"></i>Kontakt</h1>
 </div>
 
+<?php
+    $imie = "Ania";
+    $sklep = "Media Markt";
+    $produkt = "Komputer";
+    $cena = 1850;
+    $gwarancja = false;
+    $decyzja = array("przyznana", "odmowa");
+
+
+    echo $imie ." poszła do ". $sklep ." po ". $produkt .", który kosztował " . $cena ." zł.<br>";
+
+    if($gwarancja == true){
+        echo $produkt. " był popsuty, więc go oddała na gwarancję i sklep (". $sklep . ") oddał jej ". $cena. " zł.<br>";
+        echo "Gwarancja: ". $decyzja[0];
+    }else{
+        echo $produkt . " był popsuty, więc musiała wrócić do ". $sklep . " aby kupić kolejny ". $produkt ." za kolejne ". $cena ." zł.<br>";
+
+        echo "W sumie zapłaciła ". $cena * 2 ." zł.<br>";
+        echo "Gwarancja: ". $decyzja[1];
+    }
+    ?>
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+
+<form action="index.php" method="post">
+    Number 1: <input type="number" name="num1"> <br>
+    Operator: <input type="text" name="op"> <br>
+    Number 2: <input type="number" name="num2"> <br>
+    <input type="submit"> <br>
+</form>
+
+<?php
+$op = "";
+    if(isset($_POST["num1"])){
+    $num1 = $_POST["num1"];
+    }
+    if(isset($_POST["op"])){
+    $op = $_POST["op"];
+    }
+    if(isset($_POST["num2"])){
+    $num2 = $_POST["num2"];
+    }
+
+
+    if($op == "+"){
+
+        echo $num1 + $num2;
+
+    }elseif($op == "-"){
+
+        echo $num1 - $num2;
+
+    }elseif($op == "/"){
+
+        echo $num1 / $num2;
+
+    }elseif($op == "*"){
+
+        echo $num1 * $num2;
+
+    }else{
+        echo "Invalid operator.";
+
+    }
+?>
+
 
 
 

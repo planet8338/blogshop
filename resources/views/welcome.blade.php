@@ -32,13 +32,14 @@
     </head>
     <body>
 
+
     @include('components.navbar')
 
     @include('components.slider')
 
     @include('components.polnow')
 
-    @include('components.karty')
+    @include('components.karty',['products'=>$products])
 
     @include('components/numeracjastron')
 

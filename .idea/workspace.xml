@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="676c588d-8f11-4330-90e7-3ba8ab40f91b" name="Default Changelist" comment="Layout upgrading">
-      <change afterPath="$PROJECT_DIR$/resources/views/profil.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ShopController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/wysokusun.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ProductsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/karty.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/karty.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/produkty_sklep.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/produkty_sklep.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/shop_menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/shop_menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/wysok.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/wysok.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/kontakt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/kontakt.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/koszyk.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/koszyk.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/produkt.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/produkt.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/sklep.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/sklep.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +180,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599668322794</updated>
-      <workItem from="1599668323838" duration="49642000" />
+      <workItem from="1599668323838" duration="77650000" />
     </task>
     <task id="LOCAL-00001" summary="Adding layouts">
       <created>1599745647698</created>
@@ -202,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599825873986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Layout upgrading">
+      <created>1599828658543</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599828658543</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +239,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1599669530580" />
+    <state x="499" y="202" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1600081125187">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="499" y="202" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.30.1536.834@0.30.1536.834" timestamp="1600081125187" />
     <state x="647" y="345" key="Github.ShareDialog" timestamp="1599743228030">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -232,10 +251,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="538" y="152" key="Github.UntrackedFilesDialog/0.30.1536.834@0.30.1536.834" timestamp="1599743248211" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1599825875526">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1599828661298">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1599825875526" />
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1599828661298" />
     <state x="431" y="186" key="search.everywhere.popup" timestamp="1599737856509">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

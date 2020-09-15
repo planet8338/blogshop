@@ -37,12 +37,9 @@
 
 @include('components/bread')
 
-@include('components/shop_menu')
+@include('components/shop_menu', ['products'=>$products])
 
 @include('components/footer')
-
-
-
 
 
 </body>

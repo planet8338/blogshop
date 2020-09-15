@@ -1,6 +1,5 @@
-
 <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="produktUsun" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
@@ -10,14 +9,11 @@
                 </button>
             </div>
             <div class="modal-body">
-                Czy na pewno usunąć produkt?
+                Nie ma nowości.
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Tak</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Nie</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
             </div>
         </div>
     </div>
 </div>
-
-
